@@ -1,0 +1,145 @@
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 4px;
+    background-color: #D9AF41;
+    border-radius: 4px;
+  }
+  
+  #bar2 {
+    transition-duration: .8s;
+  }
+  
+  #bar1,#bar3 {
+    width: 70%;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    position: absolute;
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+  }
+/*my code*/
+  /*menu btn*/
+  .menu_btn{
+    display: none;
+    position: relative;
+    left: 381px;
+    top: 10px;
+  }
+  .fields_of_menu{ /*this is to be shown in responsive */
+    display: none;
+}
+
+  /*responsive properties*/
+  @media only screen and (max-width: 600px){
+
+    .menu_btn{
+        display: block;
+        width: 50px;
+     
+      }
+      .fields_of_menu{
+        display: none;/*hidden in first then when clicked using javascript it is displayed*/
+        background-color: rgb(10, 10, 10);
+        border: 1px solid white;
+        height: 296px;
+        width: 150px;
+        z-index: 10;
+        position: absolute;
+        left: 62%;
+        top:0%;
+       
+    }
+   
+    .fields_of_menu ul li{
+        list-style-type: none;
+        border-bottom: 2px solid rgb(63, 61, 61);
+        color: #fcfcfc !important;
+        height: 40px;
+        padding-top: 5px;
+      }
+    .fields_of_menu ul li:hover{
+      color: #fdb100 !important;
+      }  
+    .unhidden_for_menu{
+      display: block;
+    }
+  }
+
+  
+  /*responsive properties*/
+  @media only screen and (max-width: 320px){
+
+    .menu_btn{
+        display: block;
+        width: 50px;
+        left: 734px;
+        top: 20px;
+     
+      }
+      .fields_of_menu{
+        display: none;/*hidden in first then when clicked using javascript it is displayed*/
+        background-color: rgb(10, 10, 10);
+        border: 1px solid white;
+        height: 296px;
+        width: 255px;
+        z-index: 10;
+        position: absolute;
+        left: 68%;
+        top: 1%;
+    }
+       
+    
+   
+    .fields_of_menu ul li{
+        list-style-type: none;
+        border-bottom: 2px solid rgb(63, 61, 61);
+        color: #fcfcfc !important;
+        height: 40px;
+        padding-top: 5px;
+      }
+    .fields_of_menu ul li:hover{
+      color: #fdb100 !important;
+      }  
+    .unhidden_for_menu{
+      display: block;
+    }
+  }

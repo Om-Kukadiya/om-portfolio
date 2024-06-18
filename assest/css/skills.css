@@ -1,0 +1,380 @@
+.main_skills{
+    background-color: rgba(26, 27, 27, 0.771);
+    padding-left: 50px;
+    height: 600px; /*first here 80% was not working*/
+    position: relative;
+
+    opacity: 0; /* Start hidden */
+    transition: opacity 2s ease-out; /* Smooth transition */
+}
+.main_skills.visible {/*this class not in html its only for js*/
+    opacity: 1; /* Fully visible when scrolled into view */
+    animation-name: skills;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; /* Ensure it stays in the final state */
+}
+@keyframes skills {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+        background-color: rgba(26, 27, 27, 0.771);
+    }
+}
+
+/*new skill*/
+.skill_container{
+    display: flex;
+    gap: 10px;
+}
+.skill_line{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 30%;
+    height: 10px;
+    position: relative;
+}
+.inner_skill_line{
+    background-color:orange;
+    border-radius: 50px;
+    height: 10px;
+    width:95%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.skill_container span{
+    color: rgb(255, 255, 255);
+}
+
+
+/*new skill*/
+.skill_container1{
+    display: flex;
+    gap: 10px;
+}
+.skill_line1{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 30%;
+    height: 10px;
+    position: relative;
+}
+.inner_skill_line1{
+    background-color:orange;
+    border-radius: 50px;
+    height: 10px;
+    width:85%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.skill_container1 span{
+    color: rgb(255, 255, 255);
+}
+
+/*new class this is for right side skills*/
+
+.new_2class{
+    position: absolute;
+    top:155px;
+    left:45%;
+    height: 200px;
+    width: 50%;
+    
+}
+/*new skill*/
+.skill_container2{
+    display: flex;
+    gap: 10px;
+}
+.skill_line2{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 60%;
+    height: 10px;
+    position: relative;
+}
+.inner_skill_line2{
+    background-color:orange;
+    border-radius: 50px;
+    height: 10px;
+    width:85%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.skill_container2 span{
+    color: rgb(255, 255, 255);
+}
+/*new skill*/
+.skill_container3{
+    display: flex;
+    gap: 10px;
+}
+.skill_line3{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 60%;
+    height: 10px;
+    position: relative;
+}
+.inner_skill_line3{
+    background-color:orange;
+    border-radius: 50px;
+    height: 10px;
+    width:85%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.skill_container3 span{
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+
+    .main_skills{
+        background-color: rgba(26, 27, 27, 0.771);
+        padding-left: 50px;
+        height: 1286px; /*first here 80% was not working*/
+        position: relative;
+    }
+    /*new skill*/
+    .skill_container{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 60%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:95%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container span{
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    /*new skill*/
+    .skill_container1{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line1{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 60%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line1{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:85%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container1 span{
+        color: rgb(255, 255, 255);
+    }
+    
+    /*new class this is for right side skills*/
+    
+    .new_2class{
+        position: absolute;
+        top: 329px;
+        left: 16%;
+        height: 200px;
+        width: 77%;
+        
+    }
+    /*new skill*/
+    .skill_container2{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line2{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 68%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line2{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:85%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container2 span{
+        color: rgb(255, 255, 255);
+    }
+    /*new skill*/
+    .skill_container3{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line3{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 68%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line3{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:85%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container3 span{
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 320px){
+
+
+    .main_skills{
+        background-color: rgba(26, 27, 27, 0.771);
+        padding-left: 154px;
+        height: 1286px; /*first here 80% was not working*/
+        position: relative;
+        width:234%;
+    }
+    /*new skill*/
+    .skill_container{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 60%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:95%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container span{
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    /*new skill*/
+    .skill_container1{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line1{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 60%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line1{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:85%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container1 span{
+        color: rgb(255, 255, 255);
+    }
+    
+    /*new class this is for right side skills*/
+    
+    .new_2class{
+        position: absolute;
+        top: 329px;
+        left: 20%;
+        height: 200px;
+        width: 72%;
+        
+    }
+    /*new skill*/
+    .skill_container2{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line2{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 68%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line2{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:85%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container2 span{
+        color: rgb(255, 255, 255);
+    }
+    /*new skill*/
+    .skill_container3{
+        display: flex;
+        gap: 10px;
+    }
+    .skill_line3{
+        border: 2px solid white;
+        border-radius: 50px;
+        width: 68%;
+        height: 10px;
+        position: relative;
+    }
+    .inner_skill_line3{
+        background-color:orange;
+        border-radius: 50px;
+        height: 10px;
+        width:85%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .skill_container3 span{
+        color: rgb(255, 255, 255);
+    }
+}

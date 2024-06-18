@@ -1,0 +1,213 @@
+/*experience */
+.main_exp_div{
+    display: flex;
+    justify-content: center;
+    gap:170px;
+}
+/*1st exp*/
+.exp1{
+    border: 2px solid#7A69F5;
+    background-color: aliceblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:20%;
+    height: 70%;
+   
+    
+}
+
+#title_exp1{
+    background-color: #FFA629;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+.inner_exp1{
+    padding-left: 20px;
+    color:#000000;
+}
+/*2nd exp*/
+.exp2{
+    border: 2px solid#7A69F5;
+    background-color: aliceblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:23%;
+    height: 40%;
+   
+    
+}
+
+#title_exp2{
+    background-color: #FFA629;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 110px;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+.inner_exp2{
+    padding-left: 20px;
+    color:#000000;
+}
+
+
+
+/*response*/
+@media only screen and (max-width: 600px){
+
+
+    /*experience */
+#span_of_experience{
+    margin-top: 208px;
+}
+.main_exp_div{
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+}
+/*1st exp*/
+.exp1{
+    border: 2px solid#7A69F5;
+    background-color: aliceblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:57%;
+    height: 70%;
+   
+    
+}
+
+#title_exp1{
+    background-color: #FFA629;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+.inner_exp1{
+    padding-left: 20px;
+    color:#000000;
+}
+/*2nd exp*/
+.exp2{
+    border: 2px solid#7A69F5;
+    background-color: aliceblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:57%;
+    height: 40%;
+   
+    
+}
+
+#title_exp2{
+    background-color: #FFA629;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 110px;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+.inner_exp2{
+    padding-left: 20px;
+    color:#000000;
+}
+
+}
+
+
+/*response*/
+@media only screen and (max-width: 320px){
+
+
+    /*experience */
+#span_of_experience{
+    margin-top: 208px;
+}
+.main_exp_div{
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+}
+/*1st exp*/
+.exp1{
+    border: 2px solid#7A69F5;
+    background-color: aliceblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:57%;
+    height: 70%;
+   
+    
+}
+
+#title_exp1{
+    background-color: #FFA629;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+.inner_exp1{
+    padding-left: 20px;
+    color:#000000;
+}
+/*2nd exp*/
+.exp2{
+    border: 2px solid#7A69F5;
+    background-color: aliceblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:57%;
+    height: 40%;
+   
+    
+}
+
+#title_exp2{
+    background-color: #FFA629;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 110px;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+.inner_exp2{
+    padding-left: 20px;
+    color:#000000;
+}
+
+}

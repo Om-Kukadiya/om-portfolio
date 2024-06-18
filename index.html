@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Om</title>
+    <link rel="icon" type="image/x-icon" href="assest/images/om.png" >
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/loader.css">
+    <link rel="stylesheet" href="assest/css/github.css">
+    <link rel="stylesheet" href="assest/css/skills.css">
+    <link rel="stylesheet" href="assest/css/form.css">
+    <link rel="stylesheet" href="assest/css/cv.css">
+    <link rel="stylesheet" href="assest/css/experience.css">
+    <link rel="stylesheet" href="assest/css/about.css">
+    <link rel="stylesheet" href="assest/css/menu.css">
+    <link rel="stylesheet" href="assest/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<br>  
+<!--loader-->
+    <div id="loader" class="loader">
+        <svg height="108px" width="108px" viewBox="0 0 128 128" class="loader">
+            <defs>
+                <clipPath id="loader-eyes">
+                    <circle transform="rotate(-40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye1"></circle>
+                    <circle transform="rotate(40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye2"></circle>
+                </clipPath>
+                <linearGradient y2="1" x2="0" y1="0" x1="0" id="loader-grad">
+                    <stop stop-color="#000" offset="0%"></stop>
+                    <stop stop-color="#fff" offset="100%"></stop>
+                </linearGradient>
+                <mask id="loader-mask">
+                    <rect fill="url(#loader-grad)" height="128" width="128" y="0" x="0"></rect>
+                </mask>
+            </defs>
+            <g stroke-dasharray="175.93 351.86" stroke-width="12" stroke-linecap="round">
+                <g>
+                    <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(193,90%,50%)"></rect>
+                    <g stroke="hsl(193,90%,50%)" fill="none">
+                        <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+                        <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+                    </g>
+                </g>
+                <g mask="url(#loader-mask)">
+                    <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(223,90%,50%)"></rect>
+                    <g stroke="hsl(223,90%,50%)" fill="none">
+                        <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+                        <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+<div id="content" class="hidden"><!--this is loader class-->
+    
+<!--main content is started here-->
+
+        <!--  main content  is here -->   
+         <div class="navbar " >
+                 <a href="index.html"><img id="logo_my" src="assest/images/om.png" height="80px"/></a>
+                 <a href="index.html"><span id="my_name">KUKADIYA</span></a>
+            
+               <div class="navbar_inner hidden_class"><!--made hidden class to make hidden in responsive-->
+                 <a href="index.html"> Home</a>
+                 <a href="#section1" class="scroll-button"> About</a>
+                 <a href="#section2" class="scroll-button"> Skills</a>
+                 <a href="https://drive.google.com/file/d/1Y94ULZC6g4pGUG89C7hNY2cXEO1UcJvh/view?usp=sharing "> Resume</a>
+                 <a href="#section3" class="scroll-button"> Projects</a>
+                 <a href="#section4" class="scroll-button"> Contact Me</a>
+               </div>
+               <!--this is hidden-->
+               <div class="menu_btn"><!--for menu in mobile view-->
+                   <input type="checkbox" id="checkbox" >
+                   <label for="checkbox" class="toggle" id="menu_btn_j" >
+                       <div class="bars" id="bar1"></div>
+                       <div class="bars" id="bar2"></div>
+                       <div class="bars" id="bar3"></div>
+                   </label>
+               </div>
+               <!--menu btn over here-->
+               
+      </div><!--navbar is over here-->
+
+
+
+    <!--body content after navigation bar-->
+    <div class="identity">
+        <!--this is hidden-->
+        <div class="fields_of_menu" id="fields_of_menu_j">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Resume</li>
+                <li>Projects</li>
+                <li>Contact Me</li>
+            </ul>
+        </div><!--menu is over here-->
+        <script src="assest/menu.js"></script>
+
+            <div class="info">
+                  <h1>Hi,</h1>
+                  <h1>I am <span style="color: orange;">Om Kukadiya</span></h1>
+                  <h1 id="changing-text"> </h1>
+                  <script src="assest/script.js"></script>
+   
+                  <!--download cv-->
+                  <div class="resume">
+                      <button class="cssbuttons-io-button">
+                      <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M1 14.5a6.496 6.496 0 0 1 3.064-5.519 8.001 8.001 0 0 1 15.872 0 6.5 6.5 0 0 1-2.936 12L7 21c-3.356-.274-6-3.078-6-6.5zm15.848 4.487a4.5 4.5 0 0 0 2.03-8.309l-.807-.503-.12-.942a6.001 6.001 0 0 0-11.903 0l-.12.942-.805.503a4.5 4.5 0 0 0 2.029 8.309l.173.013h9.35l.173-.013zM13 12h3l-4 5-4-5h3V8h2v4z" fill="currentColor"></path></svg>
+                      <a href="https://drive.google.com/file/d/1Y94ULZC6g4pGUG89C7hNY2cXEO1UcJvh/view?usp=sharing" style="text-decoration: none;color: aliceblue;"><span>Download CV</span></a>
+                      </button>
+                  </div>
+
+                  <!--social icons-->
+                  <div class="social_icon_main">
+                    <a href="https://www.linkedin.com/in/om-kukadiya-215463230"><i class="fa-brands fa-linkedin-in" style="color:rgb(255, 255, 255);" id="s_icon_prop_main"></i></a>
+                    <a href="https://github.com/Om-Kukadiya"><i class="fa-brands fa-github" style="color:rgb(255, 255, 255);"id="s_icon_prop_main"></i></a>
+                    <a href="https://wa.me/919428046023"><i class="fa-brands fa-whatsapp" style="color:rgb(255, 255, 255);"id="s_icon_prop_main"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100079964667795&mibextid=LQQJ4d"><i class="fa-brands fa-facebook" style="color:rgb(255, 255, 255);"id="s_icon_prop_main"></i></a>
+                    <a href="https://www.instagram.com/_om_soni_7?igsh=cTJlN3ExY2JreHd6&utm_source=qr"><i class="fa-brands fa-instagram" style="color:rgb(255, 255, 255);"id="s_icon_prop_main"></i></a>
+                </div>
+            </div>
+
+            <div class="photo">
+                <img class="myphoto" src="assest/images/photo3.png" />
+            </div>
+    </div><!--idendity div is over here-->
+</br>
+</br>
+</br>
+
+
+    <div class="main_skills" id="section2">
+                   </br>
+                   </br>
+                   </br>
+                   <span style="color:aliceblue; font-size:30px;">Skills & Experience</span>
+                   </br>
+                   </br>
+                   </br>
+                   </br>
+                   </br>
+
+        
+                    <div class="skill_container"> 
+                        <span>HTML</span>
+                        <div class="skill_line">
+                            <div class="inner_skill_line"></div>
+                        </div>
+                        <span>95%</span>
+                    </div></br></br>
+        
+                    <div class="skill_container"> 
+                    <span>CSS</span>
+                    <div class="skill_line">
+                        <div class="inner_skill_line"></div>
+                    </div>
+                    <span>95%</span>
+                    </div></br></br>
+        
+                    <div class="skill_container1"> 
+                        <span>PHP</span>
+                        <div class="skill_line1">
+                            <div class="inner_skill_line1"></div>
+                        </div>
+                        <span>85%</span>
+                    </div></br></br>
+
+                <div class="new_2class">
+
+                    <div class="skill_container2"> 
+                        <span> JS</span>
+                        <div class="skill_line2">
+                            <div class="inner_skill_line2"></div>
+                        </div>
+                        <span>75%</span>
+                    </div></br></br>
+        
+                    <div class="skill_container3"> 
+                        <span> JAVA</span>
+                        <div class="skill_line3">
+                            <div class="inner_skill_line3"></div>
+                        </div>
+                        <span>75%</span>
+                    </div></br></br>
+        
+                    <div class="skill_container3"> 
+                        <span>C</span>
+                        <div class="skill_line3">
+                            <div class="inner_skill_line3"></div>
+                        </div>
+                        <span>75%</span>
+                    </div></br></br>
+                </div>
+                
+                <!--experience container-->
+                <div id="span_of_experience"><span  style="color:aliceblue;font-size:30px; ">Experience</span></div>
+                    <br><br><br>
+                    <div class="main_exp_div">
+        
+                        <div class="exp1">
+                          <div id="title_exp1"><b>WEB DEVELOPER</b></div>
+                            <div class="inner_exp1">
+                              <h3>Internship | 1 month</h3>
+                              
+                              <h3 style="color:brown;">Vital Technolabs</h3>
+                            </div>
+                        </div>
+        
+                        <div class="exp2">
+                            <div id="title_exp2"><b>Learning</b></div>
+                              <div class="inner_exp2">
+                                <h3>Internship | 1 month</h3>
+                                <h3 style="color:brown;">Dashmesh Software Solutions</h3>
+                              </div>
+                          </div>
+
+                          <div class="exp1">
+                            <div id="title_exp1"><b>WEB DEVELOPER</b></div>
+                              <div class="inner_exp1">
+                                <h3>Internship | 3 month</h3>
+                                <h3 style="color:brown;">Code ALpha</h3>
+                              </div>
+                          </div>
+                    </div>
+
+    </div><!--main skills is over here-->
+    
+
+    <!--about section-->
+    <div class="about" id="section1">
+        <span>About Me</span>
+        <img src="assest/images/om_about.png">
+
+        <div class="content_about">
+            <p>Hello! I'm Om Kukadiya, a web developer based in Bhavnagar. I specialize in websites , and I love creating websites, that are not only functional but also aesthetically pleasing.</p>
+                <p>Throughout my career, I have worked with HTML, CSS , PHP , JAVASCRIPT , JAVA , SQL  and I am always eager to learn new skills and take on new challenges. My goal is to continuously improve and deliver high-quality work that exceeds client expectations.</p>
+                <p>When I'm not working, you can find me Playing Vollyball , Cricket etc. Feel free to browse through my portfolio to see some of my work, and don't hesitate to get in touch if you'd like to collaborate or have any questions.</p>
+                
+        </div>
+    </div>
+   
+    <!--project section-->
+    <div class="MyProject"  id="section3">
+        <span id="title_project">My Project</span>
+        <div id="project_innner_container">
+            <img src="assest/images/mjjewellers.png" alt="mjjewellers">
+            <div id="name_project"><span>Jewellery Website</span></div>
+            <div class="text_of_project"> <a href="https://om-kukadiya.github.io/Projects/">Visit site</a></div>
+        </div>
+        <div id="project_innner_container">
+            <img src="assest/images/yt.png" alt="Youtube Home Page">
+            <div id="name_project"><span>Youtube Home Page</span></div>
+            <div class="text_of_project"> <a href="https://om-kukadiya.github.io/Projects/">Visit site</a></div>
+        </div>
+        <div id="project_innner_container">
+            <img src="assest/images/yt.png" alt="Youtube Home Page">
+            <div id="name_project"><span>Youtube Home Page</span></div>
+            <div class="text_of_project"> <a href="https://om-kukadiya.github.io/Projects/">Visit site</a></div>
+        </div>
+
+    </div>
+    
+    <!--contact form-->
+    <div class="contact_form"  id="section4">
+        <section id="contact" class="animinate_form">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="assest/scroll.js" ></script><!--this is for scroll of page-->
+    <script src="assest/animinate.js"></script>
+        <!--contact form over here-->
+ 
+
+
+    <!--footer-->
+    
+    <div class="footer">
+       
+        <span>All rights Reserved &copy Om Kukadiya  |</span>
+        <div class="social_icon">
+            <a href="https://www.linkedin.com/in/om-kukadiya-215463230"><i class="fa-brands fa-linkedin-in" style="color:aliceblue;" id="s_icon_prop"></i></a>
+            <a href="https://github.com/Om-Kukadiya"><i class="fa-brands fa-github" style="color:aliceblue;"id="s_icon_prop"></i></a>
+            <a href="https://wa.me/919428046023"><i class="fa-brands fa-whatsapp" style="color:aliceblue;"id="s_icon_prop"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100079964667795&mibextid=LQQJ4d"><i class="fa-brands fa-facebook" style="color:aliceblue;"id="s_icon_prop"></i></a>
+            <a href="https://www.instagram.com/_om_soni_7?igsh=cTJlN3ExY2JreHd6&utm_source=qr"><i class="fa-brands fa-instagram" style="color:aliceblue;"id="s_icon_prop"></i></a>
+        </div>
+    </div>
+
+
+</div><!--this div is of loader class over here-->
+<script src="assest/loader.js"></script>    
+
+</body>
+</html>
